@@ -26,9 +26,9 @@ setup(
     data_files=[("source_docs/esm", ["LICENSE", "README.md"])],
     zip_safe=True,
     install_requires = [
-        'numpy==1.22.0',
-        'pandas==1.3.1',
-        'tqdm==4.62',
-        'scikit-learn==0.24',
+        'numpy>=1.22.0',
+        'pandas>=1.3.1',
+        'tqdm>=4.62',
+        'scikit-learn>=0.24',
     ],
 )
